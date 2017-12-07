@@ -1,0 +1,60 @@
+
+
+body {
+  font-family: 'font-family: 'Lato', sans-serif;
+  padding-bottom: 40px;
+  background-image:  url(../images/pastel.jpg);
+}
+
+header {
+  background-image: url(../images/pastel.jpg);
+
+}
+
+h3 {
+  padding-top: 0px;
+}
+
+h4 {
+  padding: 10px 0;
+}
+
+img {
+  margin: 30px;
+  border: 2px solid #666666;
+
+}
+
+.row {
+  background-image: url(../images/pastel.jpg);
+}
+
+.col-md-6 {
+  margin-top: 50px;
+  background-color: white;
+}
+
+#game-button {
+  background-color: teal;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.banner {
+  margin: 40px;
+
+}
+
+.border {
+  border: 1px solid #666666;
+}
+
+.text-decor {
+  color: #666666;
+}
+
+.center {
+  image: center;
+}

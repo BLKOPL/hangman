@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <div class="row text-center">
+    <div class="col-md-12 jumbotron">
+      <header role="banner">
+       <img class="banner img-responsive center" src="assets/images/Logo.jpg" alt="philogo">
+     </header>
+      <h2 class="text-center">Hang the Philosopher</h2><hr>
+      <h3 class="card-title ">press any letter key to start!!!!</h3>
+      <button id="game-button" class="btn btn-success btn-md"><span class="glyphicon glyphicon-play-circle"></span> ANOTHER!</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h4>Current Word</h4>
+      <h4 id="display-word"></h4>
+      <h4 class="card-title">Wins</h4>
+      <h4 id="display-wins"></h4>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <div class="card">
+        <h4>Guesses Remaining</h4>
+        <h4 id="dispay-remaining"></h4>
+        <h4>Letters Guessed</h4>
+        <h4 id="dispay-guessed"></h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 id="display-title"></h3>
+      <div id="display-img"></div>
+    </div>
+  </div>
+
+  <script src="assets/javascript/hangm.js"></script>
+
+
+</body>
+
+</html>
