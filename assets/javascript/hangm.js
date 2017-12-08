@@ -1,4 +1,4 @@
-// Initiate global variables
+// Global variables
 var winsCounter = 0;
 var remainingCounter = 10;
 var currentWord = "";
@@ -117,6 +117,7 @@ function checkWord() {
     // Get image and quote for philosophy
     var image = philoObj[correctAnswer.toLowerCase()].img;
     var title = philoObj[correctAnswer.toLowerCase()].title;
+  
 
     // Show image and disply quote if correct guess
     imgElement.setAttribute("src", "assets/images/" + image);

@@ -55,6 +55,6 @@ img {
   color: #666666;
 }
 
-.center {
-  image: center;
+.miacenter {
+  margin: auto;
 }
