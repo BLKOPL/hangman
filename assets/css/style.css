@@ -58,3 +58,9 @@ img {
 .miacenter {
   margin: auto;
 }
+
+.quote {
+  background-color: white;
+  padding: 5px;
+  font-family: 'font-family: 'Lato', sans-serif ;
+}
